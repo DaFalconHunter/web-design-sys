@@ -57,6 +57,11 @@
 
 * {
   font-family: 'Source Sans Pro Regular';
+  font-size: 18px;
+}
+
+body {
+  margin: 0px;
 }
 
 html {
@@ -66,8 +71,33 @@ html {
 
 /* || 3. Typography Styles */
 
+/* Navigation */
+
+nav {
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: small;
+}
+
+/* Header */
+
 header {
-  margin: 10em 5em 22em 5em;
+  margin: 10%;
+  width: 50%;
 }
 
 header h1 {
@@ -75,12 +105,12 @@ header h1 {
   font-size: 7em;
 }
 
-header p {
-  font-size: 1.5em;
-}
+/* Colour Section Styles */
 
-#colour, 
+#colour,
 #typography,
 #buttons {
-  float: left;
+  margin: 10%;
+  width: 50%;
 }
+
