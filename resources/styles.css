@@ -186,8 +186,10 @@ h6 {
 #typography,
 #buttons {
   margin: 10% 10% 20% 15%;
-  width: 75%;
+  width: 60%;
 }
+
+/* Swatches Styles */
 
 #swatch-1,
 #swatch-2 {
@@ -210,6 +212,6 @@ h6 {
   display: inline-block;
 }
 
-h3 {
-  margin: 0;
+.swatch-name {
+  padding-bottom: 15px;
 }
