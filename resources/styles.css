@@ -10,12 +10,20 @@
 
 /* || 1. Font Faces */
 
-@font-face {
+/* @font-face {
   font-family: 'Playfair Display Black';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/playfairdisplay/v28/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfsunDXbtM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} */
+
+@font-face {
+  font-family: 'Roboto Slab Black';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v22/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -96,12 +104,12 @@ nav li a {
 /* Header */
 
 header {
-  margin: 10%;
+  margin: 10% 0 0 15%;
   width: 50%;
 }
 
 header h1 {
-  font-family: 'Roboto Slab Bold';
+  font-family: 'Roboto Slab Black';
   font-size: 7em;
 }
 
@@ -112,12 +120,13 @@ header span {
 
 /* Sections */
 
-#typography ul {
+ul {
+  padding-left: 0;
   list-style-type: none;
 }
 
 h1 {
-  font-family: 'Roboto Slab Bold';
+  font-family: 'Roboto Slab Black';
   font-weight: 900;
   font-size: 2em;
 }
@@ -130,10 +139,11 @@ h2 {
 h3 {
   font-family: 'Roboto Slab Medium';
   font-size: 1.17em;
+  margin: 0;
 }
 
 h4 {
-  font-family: 'Roboto Slab Medium';
+  font-family: 'Roboto Slab Regular';
 }
 
 h5 {
@@ -146,25 +156,25 @@ h6 {
   font-size: .67em;
 }
 
-#body-small-example {
+.body-small {
   font-family: 'Roboto Slab Regular';
   font-size: .87em;
 }
 
-#subtitle-example {
+.subtitle {
   font-family: 'Roboto Slab Light';
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: .7em;
 }
 
-#btn-example {
+.btn {
   font-family: 'Roboto Slab Light';
   text-transform: uppercase;
   font-size: medium;
 }
 
-#caption-example {
+.caption {
   font-family: 'Roboto Slab Regular';
   font-style: italic;
   font-size: .8em;
@@ -175,7 +185,31 @@ h6 {
 #colour,
 #typography,
 #buttons {
-  margin: 10% 10% 20% 10%;
-  width: 50%;
+  margin: 10% 10% 20% 15%;
+  width: 75%;
 }
 
+#swatch-1,
+#swatch-2 {
+  width: 45%;
+  margin: 20px 0px;
+  padding: 20px;
+  margin-left: 0;
+  list-style-type: none;
+}
+
+#swatch-1 {
+  background-color: #e0d539;
+  color: #0d1901;
+  display: inline-block;
+}
+
+#swatch-2 {
+  background-color: #0d1901;
+  color: #e0d539;
+  display: inline-block;
+}
+
+h3 {
+  margin: 0;
+}
