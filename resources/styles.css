@@ -3,7 +3,8 @@
   1. Font Faces
   2. Global Styles
   3. Typography Styles
-  4. Component Styles
+  4. Section Styles
+  5. Component Styles
 
 ================================== */
 
@@ -55,7 +56,6 @@
 
 * {
   font-family: 'Roboto Slab Regular';
-  word-spacing: 0.1em;
   font-size: 18px;
 }
 
@@ -101,16 +101,81 @@ header {
 }
 
 header h1 {
-  font-family: 'Playfair Display Black';
+  font-family: 'Roboto Slab Bold';
   font-size: 7em;
 }
 
-/* Colour Section Styles */
+header span {
+  font-size: 1em;
+  color: chocolate;
+}
+
+/* Sections */
+
+#typography ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: 'Roboto Slab Bold';
+  font-weight: 900;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Roboto Slab Bold';
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: 'Roboto Slab Medium';
+  font-size: 1.17em;
+}
+
+h4 {
+  font-family: 'Roboto Slab Medium';
+}
+
+h5 {
+  font-family: 'Roboto Slab Regular';
+  font-size: .83em;
+}
+
+h6 {
+  font-family: 'Roboto Slab Regular';
+  font-size: .67em;
+}
+
+#body-small-example {
+  font-family: 'Roboto Slab Regular';
+  font-size: .87em;
+}
+
+#subtitle-example {
+  font-family: 'Roboto Slab Light';
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: .7em;
+}
+
+#btn-example {
+  font-family: 'Roboto Slab Light';
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+#caption-example {
+  font-family: 'Roboto Slab Regular';
+  font-style: italic;
+  font-size: .8em;
+}
+
+/* || 4. Section Styles */
 
 #colour,
 #typography,
 #buttons {
-  margin: 10%;
+  margin: 10% 10% 20% 10%;
   width: 50%;
 }
 
