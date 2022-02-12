@@ -88,6 +88,7 @@ nav {
   top: 0;
   width: 100%;
   background-color: white;
+  z-index: 1;
 }
 
 nav li {
@@ -186,8 +187,9 @@ h6 {
 #colour,
 #typography,
 #buttons {
-  margin: 10% 10% 20% 15%;
+  margin: 10% 10% 5% 15%;
   width: 60%;
+  padding-top: 3%;
 }
 
 /* Swatches Styles */
