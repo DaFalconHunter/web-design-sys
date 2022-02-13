@@ -135,38 +135,59 @@ nav li a {
 }
 
 nav li a:hover {
-  border-bottom: 2px solid rgb(32, 207, 56);
+  border-bottom: 2px solid hsl(150, 59%, 43%);
   color: hsl(150, 59%, 43%);
+  text-decoration: none;
 }
 
 /* Header */
 
 header {
-  margin: 10% 0 0 15%;
-  width: 50%;
+  margin: 3% 0 0 15%;
+  width: 80%;
 }
 
 header h1 {
   font-family: 'Playfair Display Black';
-  /* font-family: 'Source Sans Pro Black'; */
   font-size: 7em;
+  padding: 30px;
+  /* border: 15px solid hsl(25, 75%, 47%); */
+  border: 15px solid hsl(150, 59%, 43%);
+  border-top: transparent;
+  /* border-left: transparent  ; */
+  border-right: transparent;
+  border-bottom: transparent;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
 }
 
 header span {
   font-size: 1em;
-  color: hsl(25, 75%, 47%);
+  color: hsl(150, 59%, 43%);
+}
+
+header p {
+  text-align: right; 
+}
+
+.banner-text {
+  display: inline-block;
+  margin-left: 5%;
+  width: 25%;
 }
 
 .banner-btn {
-  display: inline-block;
+  display: block;
   flex-flow: row nowrap;
   align-content: center;
   justify-items: center;
   text-align: center;
-  width: 25%;
+  width: 40%;
   height: 20%;
   padding: 1em 2em;
   margin: 10px 0;
+  float: right;
 
   /* Button Aesthetics */
   border: 2px solid hsl(0, 0%, 0%);
@@ -194,7 +215,7 @@ a {
   text-decoration: none;
   color: black;
   font-size: inherit;
-  color: hsl(150, 52%, 26%);
+  color: hsl(150, 53%, 32%);
   transition: color .3s ease-in-out;
 }
 
@@ -288,6 +309,18 @@ footer p {
   margin: 5% 10% 5% 15%;
   width: 60%;
   padding-top: 3%;
+}
+
+#colour h2,
+#typography h2,
+#buttons h2 {
+  /* border: 15px solid hsl(25, 75%, 47%); */
+  border: 5px solid hsl(150, 59%, 43%);
+  border-top: transparent;
+  /* border-left: transparent  ; */
+  border-right: transparent;
+  border-bottom: transparent;
+  padding-left: 5px;
 }
 
 /* Swatches Styles */
