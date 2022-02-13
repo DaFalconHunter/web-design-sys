@@ -122,15 +122,16 @@ nav li a {
   text-transform: uppercase;
   padding: 0;
   margin: 20px 30px;
-  font-family: 'Source Sans Pro Light';
+  font-family: 'Source Sans Pro Bold';
   font-size: medium;
+  letter-spacing: .1em;
   color: black;
   border: 2px solid black;
   border-top: transparent;
   border-left: transparent;
   border-right: transparent;
   border-bottom: transparent;
-  transition: border-bottom 0.1s ease-in-out,
+  transition: border-bottom 0.3s ease-in-out,
               color 0.1s ease-in-out;
 }
 
@@ -155,6 +156,44 @@ header h1 {
 header span {
   font-size: 1em;
   color: hsl(25, 75%, 47%);
+}
+
+.banner-btn {
+  display: inline-block;
+  flex-flow: row nowrap;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  width: 25%;
+  height: 20%;
+  padding: 1em 2em;
+  margin: 10px 0;
+
+  /* Button Aesthetics */
+  border: 2px solid hsl(0, 0%, 0%);
+  font-family: 'Source Sans Pro Black';
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: background-color .2s ease-in-out;
+}
+
+.banner-btn:hover {
+  background-color: hsl(0, 6%, 36%);
+  color: hsl(0, 0%, 100%);
+}
+
+.banner-btn:active {
+  background-color: hsl(0, 6%, 46%);
+  color: hsl(0, 0%, 100%);
+}
+
+/* Anchor Tags */
+a {
+  text-decoration: none;
+  color: black;
+  font-size: inherit;
 }
 
 /* Sections */
@@ -218,6 +257,14 @@ h6 {
   font-style: italic;
   font-size: .8em;
 }
+
+/* Footer */
+
+footer {
+  margin: 0% 10% 0% 15%;
+  width: 60%;
+}
+
 
 /* || 4. Section Styles */
 
