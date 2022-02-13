@@ -120,9 +120,23 @@ nav li {
 nav li a {
   text-decoration: none;
   text-transform: uppercase;
-  padding: 20px;
-  font-family: 'Source Sans Pro Bold';
+  padding: 0;
+  margin: 20px 30px;
+  font-family: 'Source Sans Pro Light';
   font-size: medium;
+  color: black;
+  border: 2px solid black;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: transparent;
+  transition: border-bottom 0.1s ease-in-out,
+              color 0.1s ease-in-out;
+}
+
+nav li a:hover {
+  border-bottom: 2px solid rgb(32, 207, 56);
+  color: hsl(150, 59%, 43%);
 }
 
 /* Header */
