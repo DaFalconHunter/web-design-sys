@@ -4,7 +4,6 @@
   2. Global Styles
   3. Typography Styles
   4. Section Styles
-  5. Component Styles
 
 ================================== */
 
@@ -182,6 +181,7 @@ header span {
 .banner-btn:hover {
   background-color: hsl(0, 6%, 36%);
   color: hsl(0, 0%, 100%);
+  text-decoration: none;
 }
 
 .banner-btn:active {
@@ -194,6 +194,17 @@ a {
   text-decoration: none;
   color: black;
   font-size: inherit;
+  color: hsl(150, 52%, 26%);
+  transition: color .3s ease-in-out;
+}
+
+a:hover {
+  color: hsl(150, 59%, 43%);
+  text-decoration: underline;
+}
+
+a:active {
+  color: hsla(150, 44%, 46%, 0.61);
 }
 
 /* Sections */
