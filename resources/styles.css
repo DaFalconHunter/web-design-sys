@@ -109,7 +109,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   z-index: 1;
 }
 
@@ -140,7 +140,7 @@ header h1 {
 
 header span {
   font-size: 1em;
-  color: chocolate;
+  color: hsl(25, 75%, 47%);
 }
 
 /* Sections */
@@ -210,7 +210,7 @@ h6 {
 #colour,
 #typography,
 #buttons {
-  margin: 5% 10% 0 15%;
+  margin: 5% 10% 5% 15%;
   width: 60%;
   padding-top: 3%;
 }
@@ -225,14 +225,14 @@ h6 {
 }
 
 #swatch-1 {
-  background-color: #3dfd4d;
-  color: #0d1901;
+  background-color: hsl(125, 98%, 62%);
+  color: hsl(90, 92%, 5%);
   display: inline-block;
 }
 
 #swatch-2 {
-  background-color: #0d1901;
-  color: #3dfd4d;
+  background-color: hsl(90, 92%, 5%);
+  color: hsl(125, 98%, 62%);
   display: inline-block;
 }
 
@@ -249,15 +249,68 @@ h6 {
   align-content: center;
   /* justify-items: center; */
   text-align: center;
-  width: 10%;
+  width: 15%;
   height: 20%;
   padding: 10px;
   margin: 10px;
 
   /* Button Aesthetics */
-  border: 2px solid black;
+  border: 2px solid hsl(0, 0%, 0%);
   font-family: 'Source Sans Pro Black';
   font-size: medium;
   text-transform: uppercase;
   letter-spacing: .1em;
+}
+
+.primary {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+}
+
+.secondary {
+  color: hsl(0, 0%, 0%);
+}
+
+.hover {
+  background-color: hsl(0, 6%, 36%);
+  color: hsl(0, 0%, 100%);
+}
+
+.active {
+  background-color: hsl(0, 6%, 46%);
+  color: hsl(0, 0%, 100%);
+}
+
+.disabled {
+  background-color: hsl(0, 3%, 17%);
+  color: hsl(0, 8%, 59%);
+  /* opacity: .4; */
+}
+
+.secondary-disabled {
+  opacity: .5;
+}
+
+.text {
+  border: none;
+  text-transform: none;
+  font-size: large;
+  font-family: 'Source Sans Pro Regular';
+  letter-spacing: normal;
+}
+
+.text-visited {
+  color: hsl(249, 36%, 37%);
+}
+
+.text-hover {
+  color: hsl(150, 59%, 43%);
+}
+
+.text-active {
+  color: hsla(150, 44%, 46%, 0.61);
+}
+
+.text-disabled {
+  opacity: .5;
 }
