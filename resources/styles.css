@@ -121,7 +121,7 @@ nav li a {
   text-decoration: none;
   text-transform: uppercase;
   padding: 20px;
-  font-family: 'Source Sans Pro Light';
+  font-family: 'Source Sans Pro Bold';
   font-size: medium;
 }
 
@@ -187,14 +187,14 @@ h6 {
 }
 
 .subtitle {
-  font-family: 'Source Sans Pro Light';
+  font-family: 'Source Sans Pro Regular Italic';
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: .7em;
 }
 
 .btn {
-  font-family: 'Source Sans Pro Light';
+  font-family: 'Source Sans Pro Bold';
   text-transform: uppercase;
   font-size: medium;
 }
@@ -238,4 +238,26 @@ h6 {
 
 .swatch-name {
   padding-bottom: 15px;
+}
+
+/* Buttons */
+
+.button {
+  /* Button Dimensions */
+  display: inline-block;
+  flex-flow: row nowrap;
+  align-content: center;
+  /* justify-items: center; */
+  text-align: center;
+  width: 10%;
+  height: 20%;
+  padding: 10px;
+  margin: 10px;
+
+  /* Button Aesthetics */
+  border: 2px solid black;
+  font-family: 'Source Sans Pro Black';
+  font-size: medium;
+  text-transform: uppercase;
+  letter-spacing: .1em;
 }
