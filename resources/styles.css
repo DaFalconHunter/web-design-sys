@@ -311,9 +311,7 @@ footer p {
   padding-top: 3%;
 }
 
-#colour h2,
-#typography h2,
-#buttons h2 {
+.section-header {
   /* border: 15px solid hsl(25, 75%, 47%); */
   border: 5px solid hsl(150, 59%, 43%);
   border-top: transparent;
