@@ -145,6 +145,8 @@ nav li a:hover {
 header {
   margin: 3% 0 0 15%;
   width: 80%;
+  height: 100%;
+  background-image: url(../resources/images/rijks.jpg) no-repeat;
 }
 
 header h1 {
