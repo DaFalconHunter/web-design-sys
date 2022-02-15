@@ -91,6 +91,8 @@
 
 body {
   margin: 0px;
+  background-color: hsl(133, 78%, 75%);
+  color: hsl(131, 41%, 10%);
 }
 
 html {
@@ -108,7 +110,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(133, 78%, 75%);
   z-index: 1;
 }
 
@@ -143,30 +145,35 @@ nav li a:hover {
 /* Header */
 
 header {
-  margin: 3% 0 0 15%;
+  /* margin: 3% 0 0 15%; */
+  padding: 5% 5% 5% 15%;
   width: 80%;
   height: 100%;
-  background-image: url(../resources/images/rijks.jpg) no-repeat;
+  background-image: url(../resources/images/rijks.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header h1 {
   font-family: 'Playfair Display Black';
   font-size: 7em;
   padding: 30px;
-  /* border: 15px solid hsl(25, 75%, 47%); */
-  border: 15px solid hsl(150, 59%, 43%);
+  /* border: 15px solid hsl(150, 59%, 43%); */
+  border: 15px solid hsl(133, 45%, 39%);
+
   border-top: transparent;
-  /* border-left: transparent  ; */
+  /* border-left: transparent; */
   border-right: transparent;
   border-bottom: transparent;
   display: inline-block;
   vertical-align: middle;
   width: 50%;
+  color: hsl(133, 78%, 75%);
 }
 
 header span {
   font-size: 1em;
-  color: hsl(150, 59%, 43%);
+  /* color: hsl; */
 }
 
 header p {
